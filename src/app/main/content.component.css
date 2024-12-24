@@ -1,25 +1,40 @@
 .app-content{
     background-color: #110B1D;
-    min-height: 100vh;
-    padding: 20px 80px;
+    min-height: 100vw;
+    padding: 2vw 8vw;
 }
 
 .search-pan{
     background-color: #0F0A1A;
-    padding-left: 30px;
-    height: 45px;
 }
 
-.search-container{
-    position: relative;
+.input-group{
+    display: flex;
+    flex-direction: row;
+}
+.input-group span{
+    border: 1px solid #E7E7E840;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #FFFFFF;
+    width: 20%;
+    
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    justify-content: center;
+}
+mat-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group .material-icons {
+    font-size: 1.7vw;
 }
 
-.search-container .search-icon{
-    position: absolute;
-    padding-left: 5px;
+.input-group input{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .form-group label{
@@ -31,12 +46,34 @@
 }
 
 .selector-container{
-    padding-top: 50px;
+    padding-top: 5vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.mr-5{
+    margin-right: 0.5vw;
 }
 
 .table-container{
-    padding-top: 50px;
+    padding-top: 5vw;
 }
+
+.mat-mdc-slide-toggle {
+    transform: scale(0.8, 0.8)
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-control{
+    width: 100%;
+}
+
+
+
+  

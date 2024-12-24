@@ -1,6 +1,6 @@
 .footer{
     background-color: #110B1D;
-    padding: 5px 80px;
+    padding: 2vw 8vw;
 }
 
 .footer li{
@@ -25,6 +25,7 @@
 
 .footer-start-left svg, .footer-start-right svg{
     width: 20vw;
+    height: 10vw;
 }
 
 .footer-start-title{
@@ -43,9 +44,24 @@
     font-size: 1vw;
 }
 
+.footer-emial-box{
+    padding-top: 1vw;
+    display: flex;
+}
+
+.footer-emial-box .form-control{
+    background-color: #E7E7E8;
+    opacity: 0.4;
+}
+
+.footer-emial-box .btn-subscribe{
+    background-color: #F5F5F5;
+    font-size: 1.2vw;
+}
+
 .footer-main{
     display: flex;
-    padding-top: 120px;
+    padding-top: 5vw;
 }
 
 .footer-main-left{
@@ -53,16 +69,41 @@
     color: #E7E7E8;
 }
 
+.footer-main-left-top{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-main-left-top svg{
+    width: 10vw;
+}
+
+.footer-main-left-middle{
+    padding-bottom: 1vw;
+    font-size: 1vw;
+}
+
+.footer-main-left-bottom{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-main-left-bottom .btn-subscribe{
+    font-size: 1.2vw;
+}
+
 .footer-main-right{
     width: 60%;
     color: #E7E7E8;
     display: flex;
-    justify-content: center;;
     flex-wrap: wrap;
+    font-size: 1vw;
 }
 
 .footer-main-list{
     padding-right: 20px;
+    width: 25%;
 }
 
 .footer-main-list > p{
@@ -76,6 +117,7 @@
 
 .footer-end{
     padding-top: 20px;
+    font-size: 0.8vw;
 }
 
 .footer-end p{
@@ -85,18 +127,8 @@
 
 .btn-subscribe{
     background-color: #3CC9B7;
+    font-family: "Kanit";
+    font-weight: 700;
 }
 
-.footer-main-left-top{
-    display: flex;
-    align-items: center;
-    padding-bottom: 20px;
-}
 
-.footer-main-left-top svg{
-    margin-right: 20px;
-}
-
-.footer-main-left-middle{
-    padding-bottom: 20px;
-}

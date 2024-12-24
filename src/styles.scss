@@ -21,5 +21,17 @@
     selected-focus-track-color: #272230,
     selected-pressed-track-color: #272230,
     selected-hover-track-color: #272230,
+    track-width: 4vw,
+    track-height: 2vw,
+    handle-width: 4vw,
   ));
+}
+
+.mdc-switch__handle{
+  width: 2vw!important;
+  height: 2vw!important;
+}
+
+.mdc-switch__handle{
+  width: 2vw!important;
 }

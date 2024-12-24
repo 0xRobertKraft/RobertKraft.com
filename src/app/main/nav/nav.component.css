@@ -7,6 +7,11 @@
     float: left;
 }
 
+.mark-content svg{
+    width: 12vw;
+    height: 8vw;
+}
+
 .mark-content svg:nth-child(2){
     padding-left: 20px;
 }
@@ -20,12 +25,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-family: "Suisse";
+    font-family: "Suisse Intl";
 }
 
 .up-nav > a{
     padding-left: 20px;
     padding-bottom: 20px;
+    font-size: 1vw;
 }
 
 .down-nav{
@@ -34,6 +40,7 @@
     justify-content: flex-end;
     align-items: center;
     font-family: "Kanit";
+    font-size: 1vw;
 }
 
 .down-nav > a{
@@ -45,10 +52,24 @@
     background-color: #3CC9B7;
     color: #120C1E;
     font-weight: 700;
-    ;
+    height: 2.5vw;
 }
 
 .btn-connect{
     background-color: #F95E38;
     color: #FEEDE9;
+    height: 2.5vw;
+}
+
+.btn span{
+    padding-right: 5px;
+}
+
+.btn span svg{
+    width: 2vw;
+    height: 2vw;
+}
+
+.btn{
+    font-size: 0.8vw;
 }

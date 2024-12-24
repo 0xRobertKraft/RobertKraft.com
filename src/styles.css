@@ -27,26 +27,29 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .header{
-    padding-bottom: 10vh;
+    padding-bottom: 7vw;
 }
 
 .form-control{
     border: 1px solid #E7E7E840;
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 0.5vw 0.4vw;
     background-color: #0F0A1A;
     outline: none;
     color: #FFFFFF;
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 
 .btn{
-    padding: 5px 10px;
+    padding: 0.5vw 0.6vw;
     border-radius: 5px;
     outline: none;
     border: none;
-    margin-left: 20px;
+    margin-left: 2vw;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-dark{
@@ -61,17 +64,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .form-group{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     color: #FFFFFF;
     border: 1px solid #E7E7E840;
     border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 1vw;
+    padding: 0.5vw 0.4vw;
+    font-size: 0.8vw;
 }
 
 .form-group .btn{
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 
 .table{
@@ -80,7 +82,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .table td, .table th{
-    padding: 10px 10px;
+    padding: 1vw 1vw;
 }
 
 .table > :not(caption) > * > * {
@@ -130,5 +132,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .fix-height{
-    height: 45px;
+    height: 3.5vw;
 }
+
