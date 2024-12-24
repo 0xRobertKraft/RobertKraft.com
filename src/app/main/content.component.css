@@ -1,0 +1,42 @@
+.app-content{
+    background-color: #110B1D;
+    min-height: 100vh;
+    padding: 20px 80px;
+}
+
+.search-pan{
+    background-color: #0F0A1A;
+    padding-left: 30px;
+    height: 45px;
+}
+
+.search-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.search-container .search-icon{
+    position: absolute;
+    padding-left: 5px;
+}
+
+.form-group label{
+    opacity: 0.6;
+}
+
+.form-group label.active{
+    opacity: 1;
+}
+
+.selector-container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table-container{
+    padding-top: 50px;
+}

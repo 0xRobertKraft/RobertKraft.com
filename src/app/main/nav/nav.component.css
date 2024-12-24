@@ -1,0 +1,54 @@
+
+
+.mark-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.mark-content svg:nth-child(2){
+    padding-left: 20px;
+}
+
+.nav-content > .mat-grid-tile-content{
+    flex-direction: column;
+}
+
+.up-nav{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Suisse";
+}
+
+.up-nav > a{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.down-nav{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Kanit";
+}
+
+.down-nav > a{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: #3CC9B7;
+    color: #120C1E;
+    font-weight: 700;
+    ;
+}
+
+.btn-connect{
+    background-color: #F95E38;
+    color: #FEEDE9;
+}

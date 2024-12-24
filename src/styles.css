@@ -1,0 +1,134 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bread-thumb > p{
+    float: left;
+    font-size: 3vw;
+    font-weight: 700;
+    padding-left: 10px;
+    font-family: Inter;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bread-thumb p:first-child{
+    padding-left: 1px;
+}
+
+.bread-thumb-line{
+    clear: both;
+    height: 4vh;
+    background-color: #0E151F;
+    width: 100%;
+}
+
+.header{
+    padding-bottom: 10vh;
+}
+
+.form-control{
+    border: 1px solid #E7E7E840;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: #0F0A1A;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn-dark{
+    background-color: #272331;
+    color: #FFFFFF;
+}
+
+.btn.active{
+    background-color: #FFFFFF;
+    color: #0F0A1A;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid #E7E7E840;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1vw;
+}
+
+.form-group .btn{
+    font-size: 1vw;
+}
+
+.table{
+    width: 100%;
+    font-size: 1vw;
+}
+
+.table td, .table th{
+    padding: 10px 10px;
+}
+
+.table > :not(caption) > * > * {
+    background-color: #0F0A1A;
+}
+
+.table-header th{
+    color: #E7E7E8;
+}
+
+.table tr, .table th, .table td{
+    border: none;
+    border-collapse: collapse;
+}
+
+.table-body tr td:nth-child(1){
+    color: #F05E25;
+    border: none;
+}
+
+.table-body tr td:nth-child(2){
+    color: #E7E7E8;
+    border: none;
+}
+
+.table-body tr td:nth-child(3){
+    color: #E7E7E8;
+    border: none;
+}
+
+.table-body tr td:nth-child(4){
+    color: #4ECEBD;
+    border: none;
+}
+
+.table-body tr td:nth-child(5){
+    color: #7D7A84;
+    border: none;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #262131;
+}
+
+.text-cetner{
+    text-align: center;
+}
+
+.fix-height{
+    height: 45px;
+}

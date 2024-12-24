@@ -1,0 +1,25 @@
+@use '@angular/material' as mat;
+
+// Customize the entire app. Change :root to your selector if you want to scope the styles.
+:root {
+  @include mat.slide-toggle-overrides((
+    track-outline-color: none,
+    selected-track-outline-color: none,
+    selected-icon-size: 0,
+    unselected-icon-size: 0,
+    selected-handle-color: #FF5A00,
+    selected-focus-handle-color: #FF5A00,
+    selected-pressed-handle-color: #FF5A00,
+    selected-hover-handle-color: #FF5A00,
+    unselected-handle-color: #D9D9D9,
+    unselected-focus-handle-color: #D9D9D9,
+    unselected-pressed-handle-color: #D9D9D9,
+    unselected-track-color: #615d68,
+    unselected-focus-track-color: #615d68,
+    unselected-pressed-track-color: #615d68,
+    selected-track-color: #272230,
+    selected-focus-track-color: #272230,
+    selected-pressed-track-color: #272230,
+    selected-hover-track-color: #272230,
+  ));
+}
