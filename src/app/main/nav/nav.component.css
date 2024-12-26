@@ -60,8 +60,7 @@ nav{
     gap: 10px;
 }
 
-.down-nav > a{
-    padding-left: 2.5rem;
+.nav-btn-group a{
     cursor: pointer;
 }
 
