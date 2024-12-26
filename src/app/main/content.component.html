@@ -1,101 +1,113 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="app-content">
     <app-nav />
-
+    <div class="content-title">
+       <span>Leaderboard</span>
+    </div>
     <div class="selector-container">
-        <div class="search-container input-group fix-height mr-5" style="width: 20%;">
+        <div class="input-group flex-grow-3">
             <span><mat-icon fontIcon="search" class="search-icon" /></span>
-            <input class="form-control search-pan" type="text" placeholder="Search by user" />
+            <input class="form-control search-pan" type="text" placeholder="Search by username" />
         </div>
-        <div class="form-group fix-height mr-5" style="width: 15%;">
+        <div class="form-group flex-grow-4">
             <label>View by Label</label>
-            <mat-slide-toggle />
+            <div class="app-toggle">  
+                <input type="checkbox" value="None" id="byLabel" name="check" checked />
+                <label for="byLabel"></label>
+            </div>
         </div>
-        <div class="form-group fix-height mr-5" style="width: 15%;">
-            <label class="active">View by Label</label>
-            <mat-slide-toggle />
+        <div class="form-group flex-grow-2">
+            <label class="active">View by User</label>
+            <div class="app-toggle">  
+                <input type="checkbox" value="None" id="byUser" name="check" checked />
+                <label for="byUser"></label>
+            </div>
         </div>
-        <div class="form-group fix-height mr-5" style="width: 30%;">
+        <div class="btn-group flex-grow-2">
             <button class="btn btn-dark active">1DAY</button>
             <button class="btn btn-dark">7 DAYS</button>
             <button class="btn btn-dark">30 DAYS</button>
             <button class="btn btn-dark">ALL</button>
         </div>
-        <div class="flex-end mr-5" style="width: 20%;">
-            <select class="form-control fix-height">
-                <option>High To Low</option>
-            </select>
+        <div class="flex-end flex-grow-3">
+            <select class="form-control">
+                <option>High to low</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </select>
         </div>
     </div>
 
     <div class="table-container">
         <table class="table table-hover table-striped">
             <thead class="table-header">
-                <tr class="text-center">
+                <tr>
                     <th>USERNAME</th>
                     <th>TOTAL ROYALTIES EARNED</th>
                     <th>SONGS OWNED</th>
                     <th>AVG ROYALTIES PER SONG</th>
-                    <th>PES OWNED</th>
+                    <th>MAXITAPES OWNED</th>
                 </tr>
             </thead>
             <tbody class="table-body">
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>
                     <td>$268.40</td>
                     <td>Coming soon</td>
                 </tr>
-                <tr class="text-center">
+                <tr>
                     <td>DevelopWithJon</td>
                     <td>$1,342.03</td>
                     <td>5</td>

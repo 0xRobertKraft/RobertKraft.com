@@ -1,6 +1,6 @@
 .footer{
     background-color: #110B1D;
-    padding: 2vw 8vw;
+    padding: 2vw 6vw;
 }
 
 .footer li{
@@ -14,21 +14,44 @@
     flex-direction: row;
     border-radius: 20px;
     justify-content: space-evenly;
-    padding: 20px 10px;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    height: 30rem;
 }
 
-.footer-start-left, .footer-start-right{
+.footer-start-left{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    width: 30%;
+    position: relative;
+}
+
+.footer-start-left svg{
+    position: absolute;
+    left: -7%;
+}
+
+.footer-start-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    position: relative;
+}
+
+.footer-start-right svg{
+    position: absolute;
+    right: -2%;
 }
 
 .footer-start-left svg, .footer-start-right svg{
-    width: 20vw;
-    height: 10vw;
+    width: 100%;
+    height: 100%;
 }
 
 .footer-start-title{
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,60 +60,125 @@
 }
 
 .footer-title-1{
-    font-size: 3vw;
+    font-family: "Kanit";
+    font-family: Kanit;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 57.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 15px;
 }
 
 .footer-title-2{
-    font-size: 1vw;
+    font-family: "SuisseIntl-Light";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.footer-title-2 p{
+    margin: 0px;
 }
 
 .footer-emial-box{
-    padding-top: 1vw;
+    padding-top: 15px;
     display: flex;
 }
 
 .footer-emial-box .form-control{
-    background-color: #E7E7E8;
-    opacity: 0.4;
+    background-color: rgba(231, 231, 232, 0.2);
+    border: none;
+    margin-right: 0.5rem;
+    font-size: 14px;
+    padding: 10px 16px;
+}
+
+.footer-emial-box input::placeholder{
+    color: #E7E7E8;
+}
+
+.footer-emial-box input.form-control{
+    width: 15rem;
 }
 
 .footer-emial-box .btn-subscribe{
-    background-color: #F5F5F5;
-    font-size: 1.2vw;
+    background-color: #E7E7E8;
+    padding: 10px 15px;
 }
 
 .footer-main{
     display: flex;
-    padding-top: 5vw;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 130px;
+    padding-top: 95px;
 }
 
 .footer-main-left{
-    width: 40%;
     color: #E7E7E8;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+    gap: 10px;
+    flex-grow: 1;
 }
 
 .footer-main-left-top{
     display: flex;
     align-items: center;
-    padding-bottom: 20px;
+    align-self: auto;
 }
 
 .footer-main-left-top svg{
-    width: 10vw;
+    width: 192px;
+    height: 50.63px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .footer-main-left-middle{
-    padding-bottom: 1vw;
-    font-size: 1vw;
+    align-self: auto;
+    font-family: "SuisseIntl-Light";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.footer-main-left-middle p{
+    margin: 0px;
 }
 
 .footer-main-left-bottom{
+    align-self: auto;
     display: flex;
     justify-content: flex-start;
+    gap: 10px;
+    padding-top: 15px;
 }
 
-.footer-main-left-bottom .btn-subscribe{
-    font-size: 1.2vw;
+.footer-main-left-bottom input{
+    font-family: SuisseIntl-Light;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 10px 16px;
+}
+
+.footer-main-left-bottom input::placeholder{
+    color: #E7E7E8;
 }
 
 .footer-main-right{
@@ -102,17 +190,33 @@
 }
 
 .footer-main-list{
+    font-family: SuisseIntl-Light;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    flex-grow: 1;
+    color: #E7E7E8;
     padding-right: 20px;
-    width: 25%;
 }
 
 .footer-main-list > p{
-    font: Kanit;
+    font-family: "Kanit";
     margin: 0px;
+    font-weight: 700;
+    padding-bottom: 21px;
 }
 
 .footer-main-list > ul{
     padding: 0px;
+    margin: 0px;
+}
+
+.footer-main-list > ul li{
+    padding-bottom: 10px;
+    font-family: SuisseIntl-Light;
 }
 
 .footer-end{
@@ -123,12 +227,26 @@
 .footer-end p{
     color: #A8A6AD;
     text-align: center;
+    font-family: SuisseIntl-Light;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 .btn-subscribe{
     background-color: #3CC9B7;
-    font-family: "Kanit";
+    font-family: Kanit;
+    font-size: 16px;
     font-weight: 700;
+    line-height: 23.92px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    padding: 10px 15px;
 }
 
 

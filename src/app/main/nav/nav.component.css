@@ -1,75 +1,95 @@
-
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 
 .mark-content{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     float: left;
 }
 
 .mark-content svg{
-    width: 12vw;
-    height: 8vw;
-}
-
-.mark-content svg:nth-child(2){
-    padding-left: 20px;
-}
-
-.nav-content > .mat-grid-tile-content{
-    flex-direction: column;
+    width: 192px;
+    height: 50.63px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .up-nav{
-    color: #FFFFFF;
     display: flex;
+    gap: 21px;
     justify-content: flex-end;
     align-items: center;
-    font-family: "Suisse Intl";
+    font-family: "SuisseIntl-Light";
 }
 
 .up-nav > a{
     padding-left: 20px;
     padding-bottom: 20px;
-    font-size: 1vw;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .down-nav{
-    color: #FFFFFF;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-family: "Kanit";
-    font-size: 1vw;
+    color: #FFFFFF;
+    gap: 28px;
+}
+
+.nav-btn-group{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-self: center;
+    gap: 28px;
+}
+
+.login-btn-group{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-self: center;
+    gap: 10px;
 }
 
 .down-nav > a{
-    padding-left: 20px;
+    padding-left: 2.5rem;
     cursor: pointer;
+}
+
+.btn span{
+    display: flex;
+    align-items: center;
+    padding-right: 0.3vw;
+}
+
+.btn span svg{
+    width: 24px;
+    height: 24px;
 }
 
 .btn-login{
     background-color: #3CC9B7;
     color: #120C1E;
-    font-weight: 700;
-    height: 2.5vw;
+    font-weight: 800;
+    font-family: "Kanit";
+    font-size: 16px;
+    padding: 12px 28px;
 }
 
 .btn-connect{
     background-color: #F95E38;
     color: #FEEDE9;
-    height: 2.5vw;
-}
-
-.btn span{
-    padding-right: 5px;
-}
-
-.btn span svg{
-    width: 2vw;
-    height: 2vw;
-}
-
-.btn{
-    font-size: 0.8vw;
+    font-weight: 700;
+    font-family: "Kanit";
+    font-size: 16px;
+    padding: 12px 28px;
 }
